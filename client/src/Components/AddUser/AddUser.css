@@ -1,0 +1,48 @@
+   .body{
+    padding: 30px;
+   }
+   .addUser{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        row-gap: 30px;
+        max-width: 400px;
+        margin: 100px  auto;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+        border-radius: 5px;
+        background-color: white;
+        /* justify-self: center; */
+        /* align-self: center; */
+    }
+
+    .addUserButton{
+        text-decoration: none;
+        background-color: purple;
+        color: white;
+        font-weight: 500;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+        border-radius: 10px;
+        padding: 10px;
+        border-style: none;
+        /* width: fit-content; */
+    }
+
+    .addUserForm{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .inputgroup{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        row-gap: 5px;
+    }
+
+    input{
+        border-radius: 10px;
+        height: 35px;
+        padding-left: 10px;
+        border-color: grey;
+        border-width: 1px;
+    }
